@@ -61,4 +61,29 @@ list[4].innerHTML += `<li><a class="link" href="https://www.clarusway.com">CW</a
 
 //? HTML kodlarini calistirir. (Guvenlik acisindan problemli)
 
+//*===========================================
+//*          GETELEMENTSBYCLASSNAME()
+//*===========================================
+
+const itemList = document.getElementsByClassName("list")
+console.log(itemList) //?HTMLCollection [section.item-list]
+console.log(itemList)
+
+//? Array.from() (HTMLCollection -> Array)
+const itemListArr = Array.from(itemList)
+console.log(...itemList)
+itemListArr.forEach((x) => console.log(x))
+
+//? SPREAD (HTMLCollection -> Array)
+const itemListSpread = [...itemList]
+console.log(itemListSpread)
+itemListSpread.map((x) => console.log((x.style.color = "red")))
+//* ========================================
+//*              QUERYSELECTOR()
+//* ========================================
+
+//* ========================================
+//*              QUERYSELECTORALL()
+//* ========================================
+
 
