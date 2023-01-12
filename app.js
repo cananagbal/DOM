@@ -80,6 +80,11 @@ document.querySelector(".add-item").children[0].style.color="red"; //indeksi 0 o
 
 //3-Yatay yönde Traverse
 
+const a =document.querySelector(".list").parentNode.children[2];
+console.log(a);
+
+
+
 
 
 
