@@ -66,7 +66,7 @@ console.log(lists);  //ul nin içindeki list lerin hepsini seçti
 lists.forEach((x) =>console.log(x.innerText)); 
 
 //TRAVERSİNG DOM*************bir Html elementi üzerinden başka bir elementi seçmek 
-//Seçme işlemi 3 yolla yapılır. 
+// Seçme işlemi 3 yolla yapılır. 
 //-yukarı yönde (parent)
 //-aşağı yönde (child)
 //-yatay yönde (sibling)
