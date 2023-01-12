@@ -1,4 +1,7 @@
-//document.getElementById()
+//SELECTOR-SEÇİCİLER
+
+//document.getElementById() İD SEÇİYOR
+//ID tek bir elemana verdiğimiz bir eleman seçimi yapıyoruz.
 
 // const h1 = document.getElementById("header")
 
@@ -21,7 +24,7 @@ button.style.fontSize="1.1rem"
 button.style.padding="1rem"
 
 
-//document.getElementsByTagName()
+//document.getElementsByTagName() tag'ları seçer
 
 const list = document.getElementsByTagName("li");
 
@@ -33,7 +36,9 @@ list[4].innerText ="ÖKMEN" //içindeki ifadeyi değiştirir.
 console.log(list[2].textContent);
 console.log(list[2].innerText);
 
-//document.getElementsByClassName()
+//*===========================================
+//*          GETELEMENTSBYCLASSNAME()    Class'ları seçer
+//*===========================================
 
 const myList = document.getElementsByClassName("list");
 console.log(myList);
