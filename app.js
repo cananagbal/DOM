@@ -86,9 +86,24 @@ console.log(a);
 
 document.querySelector("#sezer").parentNode.parentNode.parentNode.previousElementSibling.children[0].style.color="red"
 
-//Create Element (element oluşturmak)
+//Create Element (element oluşturmak) Html sayfasına müdahale etmeden JS sayfasında element oluşturmak için kullanılır.
+
+const newP = document.createElement("p") //p elementi oluşturduk.
+
+newP.id = humeyra   //humeyra id'sini atadık.
+
+newP.setAttribute("class", "jin") // class'ını jin verdik
+
+const text = document.createTextNode("This is a new P element") // içinde ne yazacağını yazdık ve bir değişkene atadık.
+
+newP.appendChild(text);
+console.log(newP);
+
+document.querySelector(".item-list h2")
+h2.after(newP) //konumu belirlendi.
 
 
+//GETATTİRİBUTE()
 
 
 
