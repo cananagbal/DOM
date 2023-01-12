@@ -105,6 +105,16 @@ h2.after(newP) //konumu belirlendi.
 
 //GETATTİRİBUTE()
 
+console.log(newP.getAttribute("class"));
+console.log(newP.getAttribute("id"));
+console.log(newP.getAttribute("name"));
+
+//CLASSLİST
+
+
+
+
+
 
 
 
