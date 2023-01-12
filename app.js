@@ -119,6 +119,12 @@ console.log(newP);
 
 //İnner HTML- Ciddi güvenlik açıkları vardır.
 
+const ul = document.querySelector("ul")
+ul.innerHTML += `<li id = "list-id" class = "list" >Bootstrap</li>`
+console.log(ul);
+ul.innerText += `<li id = "list-id" class = "list" >Bootstrap</li>`
+console.log(ul);
+
 
 
 
