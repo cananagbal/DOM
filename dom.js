@@ -82,8 +82,22 @@ itemListSpread.map((x) => console.log((x.style.color = "red")))
 //*              QUERYSELECTOR()
 //* ========================================
 
+
+const addItem =document.querySelector(".add-item")
+console.log(addItem);
+addItem.style.border = "3px solid grey"
+
+const addBtn =document.querySelector("#btn")
+addBtn.style.cursor ="pointer"
+
+const itemH2 = document.querySelector(".item-list h2")
+console.log(itemH2)
+
+
 //* ========================================
 //*              QUERYSELECTORALL()
 //* ========================================
+const list= document.querySelectorAll("ul li")
+console.log(lists);
 
 
