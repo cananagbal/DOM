@@ -71,6 +71,11 @@ lists.forEach((x) =>console.log(x.innerText));
 //*aşağı yönde (child)
 //*yatay yönde (sibling)
 
+//1 Yukarı yönde Traverse
+
+const list = document.querySelector(".list").parentNode.style.border= "2px solid red" //ilk gördüğü li'yi aldı.parentNode diyerek bir üstte çıktık. Ul'ye çıktık Ul li'lerin kapsayıcısı.
+
+
 
 
 
