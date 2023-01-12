@@ -73,7 +73,7 @@ lists.forEach((x) =>console.log(x.innerText));
 
 //1 Yukarı yönde Traverse
 
-const list = document.querySelector(".list").parentNode.style.border= "2px solid red" //ilk gördüğü li'yi aldı.parentNode diyerek bir üstte çıktık. Ul'ye çıktık Ul li'lerin kapsayıcısı.
+const list = document.querySelector(".list").parentNode.parentNode.parentNode.style.border= "2px solid red" //ilk gördüğü li'yi aldı.parentNode diyerek bir üstte çıktık. Ul'ye çıktık Ul li'lerin kapsayıcısı. tekrar parendNode diyerek section'u seçtik. bir tane daha diyerek main'i seçmiş olduk.
 
 
 
