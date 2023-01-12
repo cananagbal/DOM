@@ -111,6 +111,14 @@ console.log(newP.getAttribute("name"));
 
 //CLASSLİST
 
+console.log(newP.clessList.contains("jsd")); //classı içeriyor mu true veya false döndürür.
+newP.classList.add("new-class");
+console.log(newP);
+newP.classList.remove("new-class") //class ı newclass olanı sil
+console.log(newP);
+
+//İnner HTML- Ciddi güvenlik açıkları vardır.
+
 
 
 
