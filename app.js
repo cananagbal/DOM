@@ -82,7 +82,11 @@ document.querySelector(".add-item").children[0].style.color="red"; //indeksi 0 o
 
 const a =document.querySelector(".list").parentNode.children[2];
 console.log(a);
+ 
 
+document.querySelector("#sezer").parentNode.parentNode.parentNode.previousElementSibling.children[0].style.color="red"
+
+//Create Element (element oluşturmak)
 
 
 
